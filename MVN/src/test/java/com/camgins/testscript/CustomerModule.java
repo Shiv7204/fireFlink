@@ -13,5 +13,11 @@ public class CustomerModule {
 		driver.get("https://www.instagram.com/");
 		Reporter.log("createCustomer",true);
 	}
-
+    @Test
+	public void modifyCustomer()
+	{
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.facebook.com/");
+		Reporter.log("modifyCustomer",true);
+	}
 }
